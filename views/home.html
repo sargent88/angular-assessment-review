@@ -1,0 +1,6 @@
+<h2 ng-repeat="shoe in shoes | filter: shoeSearch" ui-sref="details({shoeID: shoe.id})">{{shoe.type}}, {{shoe.id}}</h2>
+
+<!--{{test}} {{test1}}-->
+
+
+<input type="text" placeholder="serch here..." ng-model="shoeSearch"> {{showSearch}}
